@@ -1,14 +1,14 @@
 {
-  "name": "npm-demo-app",
-  "version": "1.0.1",
-  "description": "",
+  "name": "kickstart-node-app",
+  "version": "0.1",
+  "description": "Build a very basic App with Node, Bootstrap & MongoDB",
   "main": "index.js",
   "scripts": {
     "watch": "nodemon ./start.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Jerome IFFRIG",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
