@@ -1,0 +1,21 @@
+extends layout
+
+block content
+
+  if orders.length
+    table.listing-table.table-dark.table-striped
+      tr
+        th Name
+        th Email
+        th CreatedAt
+        th UpdatedAt
+        th DeliveredAt
+      each order in orders
+        tr
+          td= order.name
+          td= order.email
+          td= order.createdAt
+          td= order.updatedAt
+          td= order.deliveredAt
+  else
+    p No order yet :(
